@@ -1,0 +1,57 @@
+@charset "UTF-8"
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0px;  
+    
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
+    background-color: rgb(151, 149, 149);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px  black;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: rgb(134, 132, 132);;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+
+article > aside {
+    background-color: dimgray;
+    padding: 3px;
+   
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
