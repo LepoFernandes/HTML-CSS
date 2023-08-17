@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    background-image: url(https://gustavoguanabara.github.io/images/mascote-javascript.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
