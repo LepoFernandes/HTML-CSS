@@ -7,14 +7,22 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th{
     border: 1px solid black;
     padding: 10px;
 }
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(0, 0, 0);
+}
+
 thead, tfoot{
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.753);
     color: white;
 }
 
@@ -22,6 +30,11 @@ td.num{
     text-align: right;
 
 }
+
+tbody > tr:nth-child(2n){
+    background-color: lightgrey;
+}
+
 caption{
     font-size: 1em;
     font-weight: bold;
