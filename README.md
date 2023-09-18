@@ -28,4 +28,4 @@ Estou aprendendo a criar sites e configurar meus repositórios no GitHub.
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex023/tabela005.html">Exercício 023</a>
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex024/iframe006.html">Exercício 024</a>
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex025/form003.html">Exercício 025</a>
-<a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex026/">Exercício 026</a>
+<a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex026/mq002/">Exercício 026</a>
