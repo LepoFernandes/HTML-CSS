@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Demais versões  OLHAR A OUTRA VIDEO AULA ANTES DE TERMINAR IMAGEM TA TROCADA*/
+
+@media screen and (min-width: 1000px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        box-sizing: border-box;
+    }
+    
+    html{
+        height: 100vh;
+    }
+
+    body{
+        background: url(../imagens/back-tv.jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+        
+    }
+
+    main{
+        background-color: rgba(255, 255, 255, 0.842);
+        width: 90vw;
+        margin: auto;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    h1{
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        font-size: 2em;
+    }
+    img{
+        display: block;
+        margin: auto;
+    } }
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    img#tv{display: block;}
+
+   
+   
