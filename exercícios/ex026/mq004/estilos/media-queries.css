@@ -1,51 +1,74 @@
 @charset "UTF-8";
 
-/* Demais versões  OLHAR A OUTRA VIDEO AULA ANTES DE TERMINAR IMAGEM TA TROCADA*/
+/* Demais versões */
 
-@media screen and (min-width: 1000px) {
+@media print {
+    /*PARA IMPRESSÃO*/
     *{
-        padding: 0px;
-        margin: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        box-sizing: border-box;
+        font-family: 'Courier New', Courier, monospace;
     }
     
-    html{
-        height: 100vh;
+    body{
+        background: url(../imagens/back-print.jpg);
     }
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: block;}
+    img#tablet{display: none;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    /*PARA TABLET*/
+    body{
+        background: url(../imagens/back-tablet.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: block;}
+    img#tv{display: none;}
+}
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    /*PARA DESKTOP*/
+    body{
+        background: url(../imagens/back-pc.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img#phone{display: none;}
+    img#pc{display: block;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    img#tv{display: none;}
+}
+@media screen and (min-width: 1200px) {  /*PARA GRANDES TELAS*/
 
     body{
         background: url(../imagens/back-tv.jpg) no-repeat;
-        background-position: center center ;
         background-size: cover;
-        
+        background-position: center center;     
     }
 
-    main{
-        background-color: rgba(255, 255, 255, 0.842);
-        width: 90vw;
-        margin: auto;
-        border-radius: 10px;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    
-    h1{
-        text-align: center;
-        color: white;
-        text-shadow: 2px 2px 2px black;
-        font-size: 2em;
-    }
-    img{
-        display: block;
-        margin: auto;
-    } }
     img#phone{display: none;}
     img#pc{display: none;}
     img#print{display: none;}
     img#tablet{display: none;}
     img#tv{display: block;}
+
+}
 
    
    
