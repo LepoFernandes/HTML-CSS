@@ -21,8 +21,8 @@ Estou aprendendo a criar sites e configurar meus repositórios no GitHub.
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex016/cor01.html">Exercício 016</a>
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex017/fonte01.html">Exercício 017</a>
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex018/fonte02.html">Exercício 018</a>
-<a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex019/hover.html">Exercício 019</a>
-<a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex020/">Exercício 020</a>
+<a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex019/">Exercício 019</a>
+<a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex020/hover.html">Exercício 020</a>
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex021/caixa01.html">Exercício 021</a>
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex022/">Exercício 022</a>
 <a href="https://lepofernandes.github.io/HTML-CSS/exercícios/ex023/tabela005.html">Exercício 023</a>
